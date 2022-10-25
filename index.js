@@ -1,5 +1,6 @@
 let countText = document.getElementById("count-txt");
-let count = 0
+let count = 0;
+let entriesText = document.getElementById("entries-txt");
 
 function increment(){
     count = count + 1;
@@ -7,5 +8,8 @@ function increment(){
 }
 
 function save() {
-    console.log('linea6');
+    let entries = count + " - ";
+    entriesText.textContent += entries;
+    countText.innerText = 0;
+    count = 0;
 }
