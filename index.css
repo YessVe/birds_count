@@ -28,21 +28,26 @@ h2 {
 #increment-btn {
     background-color: green;
     color: white;
-    padding: 10px;
 }
 #save-btn {
     background-color: greenyellow;
     color: black;
-    padding: 10px;
 }
+
+#startAgain-btn {
+    background-color: red;
+    color: black;
+    color: white;
+}
+
 button {
-    width: 100px;
+    width: 110px;
     font-size: 15px;
     font-weight: bold;
+    padding: 10px;
 }
 
 p {
     font-size: 20px;
     padding: 20px;
-
 }
